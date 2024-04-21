@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9ece3; /* Color de fondo para todo el cuerpo (tono pastel claro) */
+}
+
+header, footer {
+  background-color: #fad4d8; /* Color de fondo para el encabezado y pie de página (tono pastel rosado) */
+  color: #35186b; /* Color del texto (tono morado oscuro) */
+  padding: 10px 0; /* Relleno superior e inferior */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+main {
+  display: flex; /* Mostrar el contenido principal como un contenedor flexible */
+  flex-direction: column; /* Dirección de la disposición del contenido (columna) */
+  align-items: center; /* Alineación del contenido al centro */
+  margin-top: 20px; /* Margen superior */
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+.container {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  width: 100%; /* Ancho completo */
+  padding: 0 20px; /* Relleno en los lados del contenedor */
+}
+
+nav ul {
+  list-style-type: none; /* Eliminar viñetas de la lista */
+  margin: 0; /* Eliminar márgenes */
+  padding: 0; /* Eliminar relleno */
+}
+
+nav ul li {
+  display: inline; /* Mostrar elementos de lista en línea */
+  margin-right: 20px; /* Margen derecho entre elementos de lista */
+}
+
+nav ul li a {
+  color: #35186b; /* Color del texto de los enlaces (tono morado oscuro) */
+  text-decoration: none; /* Quitar subrayado de los enlaces */
+  font-weight: bold; /* Negrita */
+}
+
+nav ul li a:hover {
+  color: #5e4d39; /* Cambiar color del texto al pasar el cursor sobre los enlaces (tono marrón oscuro) */
+}
+
+.active {
+  color: #5e4d39; /* Color del texto para elementos activos (tono marrón oscuro) */
+}
+
+nav {
+  background-color: #e5a7f8; /* Color de fondo para la barra de navegación (tono pastel ) */
+  padding: 20px; /* Relleno interno de la barra de navegación */
+  width: 100%; /* Ancho completo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}

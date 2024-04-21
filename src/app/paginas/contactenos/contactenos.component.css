@@ -1,0 +1,58 @@
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 22px); /* Calcula el ancho para que tenga en cuenta el padding y el borde */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e9e9e9;
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #9e00b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d50000;
+}
+
+/* Estilos para el fondo del formulario */
+.container:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #9e00b3, #d50000);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  z-index: -1;
+}

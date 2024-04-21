@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+  background-image: url('/assets/img/fondo5.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Estilos para el contenedor del contenido */
+.nosotros {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para el encabezado */
+.nosotros h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 40px;
+  color: #9e00b3;
+}
+
+/* Estilos para el equipo */
+.equipo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.miembro {
+  flex: 1;
+  text-align: center;
+}
+
+.miembro img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #9e00b3;
+  transition: transform 0.3s ease-in-out;
+}
+
+.miembro img:hover {
+  transform: scale(1.1);
+}
+
+/* Estilos para la historia y los valores */
+.nosotros p {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+/* Estilos para el contacto */
+.nosotros h2:last-of-type {
+  margin-bottom: 40px;
+}
+
+
